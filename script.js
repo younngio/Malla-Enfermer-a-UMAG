@@ -1,3 +1,4 @@
+
 const nodes = new vis.DataSet([
 { id: "BIOCEL", label: "Biología Celular\n(1ºA - 1ºS)", color: "#0077cc" },
 { id: "ANATO", label: "Anatomía\n(1ºA - 1ºS)", color: "#0077cc" },
@@ -165,3 +166,4 @@ const options = {
   }
 };
 
+new vis.Network(container, data, options);
