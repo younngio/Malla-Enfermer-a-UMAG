@@ -164,4 +164,4 @@ const options = {
     tooltipDelay: 50
   }
 };
-new vis.Network(container, data, options);
+
